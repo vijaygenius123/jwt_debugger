@@ -13,9 +13,7 @@ function App() {
             <div className="container">
                 <div className="input">
                     <h1>JWT Token</h1>
-                    <form action="">
-                        <input type="text" value={token} onChange={e=> setToken(e.target.value)}/>
-                    </form>
+                        <textarea type="text" value={token} onChange={e=> setToken(e.target.value)}/>
                 </div>
                 <div className="output">
                     <h2>Header</h2>

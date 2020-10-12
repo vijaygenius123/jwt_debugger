@@ -40,18 +40,14 @@ header nav{
   align-items: center;
 }
 
-.input form{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 
-input{
-  display: block;
-  width: 80%;
+textarea{
+  padding: 1em;
+  height: 60%;
+  width: 90%;
+  outline: none;
   border: none;
-  border-radius: 1em;
-  height: 10em;
+  font-size: 1.5em;
 }
 
 .output div{
