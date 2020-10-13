@@ -41,24 +41,38 @@ header nav{
 }
 
 
-textarea{
+.textarea{
   padding: 1em;
   height: 60%;
-  width: 90%;
+  width: 80%;
   outline: none;
   border: none;
   font-size: 1.5em;
   resize: none;
+  background: whitesmoke;
 }
 
-.output div{
+.output div {
   background: whitesmoke;
+  padding: 1em;
   min-height: 4rem;
   width: 80%;
   border-radius: 1em;
 }
 
 
-.error{
+.error {
   background: pink;
+}
+
+.red {
+  color: red;
+}
+
+.purple{
+  color: purple;
+}
+
+.green {
+  color: green;
 }
