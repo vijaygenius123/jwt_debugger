@@ -48,6 +48,7 @@ textarea{
   outline: none;
   border: none;
   font-size: 1.5em;
+  resize: none;
 }
 
 .output div{
@@ -55,4 +56,9 @@ textarea{
   min-height: 4rem;
   width: 80%;
   border-radius: 1em;
+}
+
+
+.error{
+  background: pink;
 }
