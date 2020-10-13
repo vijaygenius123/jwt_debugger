@@ -26,7 +26,7 @@ function App() {
                 const colorCodedToken = `
                     <span class="red">${tokens[0]}</span>.
                     <span class="purple">${tokens[1]}</span>.
-                    <span class="green">${tokens[2]}</span>
+                    <span class="blue">${tokens[2]}</span>
                     `
 
                 setToken(colorCodedToken)
@@ -57,17 +57,17 @@ function App() {
                 </div>
                 <div className="output">
                     <h2>Header</h2>
-                    <div>
+                    <div className="red">
                         <pre>
                         {JSON.stringify(header, null, 2)}
                         </pre>
                     </div>
                     <h2>Payload / Claims</h2>
-                    <div>
+                    <div className="purple">
                         <pre>{JSON.stringify(payload, null, 2)}</pre>
                     </div>
                     <h2>Signature</h2>
-                    <div>{signature}</div>
+                    <div className="blue">{signature}</div>
                 </div>
             </div>
 
